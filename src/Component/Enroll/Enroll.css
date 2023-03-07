@@ -1,0 +1,93 @@
+.enroll-text{
+    text-align: center;
+    line-height: 10px;
+    padding:80px 10px;
+    background: linear-gradient(rgba(10, 170, 210, 0.875), rgba(10, 170, 210, 0.875)), url('../../image/section3.jpg');
+    background-repeat: no-repeat;
+    color: white;
+}
+.enroll-input-div{
+    display: block;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 15px;
+    color: rgb(76, 214, 113);
+}
+.info-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 15px;
+   
+}
+.enrol-input{
+    padding: 10px 50px;
+    background-color: rgb(70, 70, 70);
+    color:rgb(76, 214, 113) ;
+}
+.enrol-btn{
+    padding: 15px 40px;
+    width: 100%;
+    border: 2px solid rgb(76, 214, 113);
+    background-color: transparent;
+    color: white;
+  
+}
+.enrol-btn:hover{
+    color: white;
+    border: 2px solid rgb(76, 214, 113);
+    background-color: rgb(76, 214, 113);
+    transition: 0.5s ease;
+}
+.enroll{
+    background-color: rgb(37, 37, 37);
+    margin-bottom: -15px;
+}
+
+@media only screen and (max-width: 2000px) {
+    .info-div{
+        display: block;
+        margin-bottom: 15px;
+    }
+    .enroll-input-div{
+        display: block;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin-bottom: 15px;
+        color: rgb(76, 214, 113);
+    }
+    .info-div small{
+        width: 100%;
+        display: block;
+    }
+    .info-div input{
+        width: 80%;
+            }
+   }
+@media only screen and (max-width: 800px) {
+    .info-div{
+        display: block;
+        margin-bottom: 15px;
+        
+    }
+    .info-div small{
+        width: 100%;
+        display: block;
+    }
+    .info-div input{
+width: 80%;
+    }
+    .enroll-input-div{
+        display: block;
+        padding: 10%;
+       
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin-bottom: 15px;
+        color: rgb(76, 214, 113);
+    }
+   }
+

@@ -1,0 +1,41 @@
+.error {
+  text-align: center;
+}
+.error-text {
+  color: rgb(76, 214, 113);
+  padding-top: 150px;
+  padding-bottom: 200px;
+  line-height: 20px;
+}
+.four-o-four {
+  font-size: 200px;
+  padding: 0px;
+}
+.error-btn {
+  background-color: transparent;
+  padding: 20px 40px;
+  border-radius: 35px;
+  border: 2px solid rgb(76, 214, 113);
+  color: rgb(76, 214, 113);
+  font-size: 18px;
+  font-weight: 700;
+}
+.error-btn:hover {
+  background-color: rgb(76, 214, 113);
+
+  border: 2px solid rgb(76, 214, 113);
+  color: white;
+  transition: 0.5s ease;
+}
+@media only screen and (max-width: 1000px) {
+  .four-o-four {
+    font-size: 100px;
+    padding: 0px;
+  }
+  .error-text {
+    color: rgb(76, 214, 113);
+    padding-top: 150px;
+    padding-bottom: 200px;
+    line-height: 50px;
+  }
+}

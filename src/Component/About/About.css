@@ -1,0 +1,34 @@
+.about span{
+    color: rgb(76, 214, 113);
+}
+.about h1{
+    text-align: center;
+}
+.about-text{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+.about-detail{
+    background: linear-gradient(rgba(10, 170, 210, 0.875), rgba(10, 170, 210, 0.875)), url('../../image/teacher.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.go-bacl-btn{
+    margin: 20px 0px;
+    padding: 15px 25px ;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.go-bacl-btn:hover{
+    background-color:black ;
+    border: 2px solid black;
+    transition: 0.5s ease;
+}

@@ -1,0 +1,54 @@
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(76, 214, 113);
+    padding: 0px 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+   
+
+}
+.nav-div h1{
+    font-size: 50px;
+    padding:0;
+    margin: 0;
+    
+}
+.nav{
+ padding: 15px 10px;
+
+}
+.nav-text{
+    color: white;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.void{
+    color: white;
+
+}
+.edu{
+    color: rgb(0, 103, 50);
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+   .nav-div{
+    display: block;
+    padding:  1%;
+    text-align: center;
+   }
+   .void{
+    font-size: 35px;
+
+}
+.edu{
+    font-size: 35px;
+}
+.nav-text{
+    font-size: 18px;
+    padding: 5px ;
+}
+  }

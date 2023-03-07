@@ -1,0 +1,58 @@
+
+
+
+{"name": "Our Courses",
+"courses": [{
+  "name": "Web Design",
+  "teacher":"Bruce Wane",
+  "image": "https://vignette.wikia.nocookie.net/herois-do-multiverso-universo/images/6/6b/Brucey1-1-.png/revision/latest?cb=20180114183935&path-prefix=pt",
+  "courseImage":"https://wallpaperaccess.com/full/3239444.jpg",
+  "duration":"6 Months",
+  "totalClass":"50",
+  "description":"A web design course teaches HTML, CSS, JavaScript, UX design, responsive design, optimization, accessibility, SEO, and analytics. Students will learn how to create professional-quality websites that meet the needs of businesses, organizations, and individuals.",
+  "university":"Gotham University",
+  "Student": 5000,
+  "starts": "Ocrober 3rd, 2002",
+  "price": 100,
+  "key": 101
+}
+,{
+  "name": "Graphic Design",
+  "teacher":"Klark Kent",
+  "image": "https://4.bp.blogspot.com/-Tek3yg7Yh54/VVj1FwY8CrI/AAAAAAAAbiw/bqQfLjDuYYU/s1600/Clark-Kent-superman-36885818-1920-800%2B(640x534).jpg",
+  "courseImage":"https://www.digisnare.com/images/Graphic-Design-Training.png",
+  "duration":"6 Months",
+  "totalClass":"50",
+  "description":"A graphic design course teaches students the principles and software necessary to create visual content. Students will learn how to design logos, brochures, websites, and other visual media using software such as Adobe Photoshop and Illustrator. The course covers design theory, typography, color theory, and layout.",
+  "university":"Small Ville University",
+  "Student": 7000,
+  "starts": "Ocrober 3rd, 2002",
+  "price": 150,
+  "key": 102
+},{
+  "name": "Programming Language Courses",
+  "teacher":"Diana Prince",
+  "image": "https://th.bing.com/th/id/R.8241e82375bd617753970a7f0ae98d45?rik=DfCgnXsVsxRj6Q&pid=ImgRaw&r=0",
+  "courseImage":"https://th.bing.com/th/id/R.4381aac4b944fdf2d67fd9827bf6bf50?rik=uJkIjaZuXfmYMg&pid=ImgRaw&r=0",
+  "duration":"6 Months",
+  "totalClass":"50",
+  "description":"A programming language course teaches students how to write code using a specific programming language such as Python, Java, or C++. The course covers programming concepts such as data types, control structures, functions, and object-oriented programming. Students will learn how to write and debug code, as well as design and develop software applications.",
+  "Student": 4000,
+  "starts": "Ocrober 3rd, 2002",
+  "price": 199,
+  "key": 103
+},{
+  "name": "Video Editing Course",
+  "teacher":"Peter Parker",
+  "image": "https://64.media.tumblr.com/3032f768d1e38fd2bf31d648575cf404/5d3c3bbc1651c2f2-80/s1280x1920/49d1644524234fa9b207658ec41ba16b514d8714.jpg",
+  "courseImage":"https://th.bing.com/th/id/R.502e4c45cd2eb153c84e4e993658c94d?rik=FkK63Mz2v%2bXKAg&pid=ImgRaw&r=0",
+  "duration":"6 Months",
+  "totalClass":"50",
+  "description":"A video editing course teaches students how to edit and produce professional-quality video content. The course covers video editing software, techniques, and industry standards. Students will learn how to create compelling visual stories through the use of sound, graphics, and special effects. The course may also cover color correction, audio editing, and post-production workflow.",
+  "university":"Queens University",
+  "Student": 9000,
+  "starts": "Ocrober 3rd, 2002",
+  "price": 200,
+  "key": 104
+}]
+  }
