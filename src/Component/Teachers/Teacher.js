@@ -10,14 +10,12 @@ import {
   Typography,
 } from "@mui/material";
 import Layout from "../Layout/Layout";
-import { CourseContext } from "../Home/Home";
+
 
 
 
 const Teacher = () => {
- const muData = useContext(CourseContext)
  
- console.log(muData)
   
   return (
     <Layout>

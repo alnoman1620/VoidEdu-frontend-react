@@ -10,6 +10,7 @@ import Error from './Component/Error/Error';
 import Enroll from './Component/Enroll/Enroll';
 import Teacher from './Component/Teachers/Teacher';
 
+
 function App() {
 const router = createBrowserRouter([
   {path: "/", element: <Home></Home>},

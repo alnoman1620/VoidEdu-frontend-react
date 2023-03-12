@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Home.css";
 import services from "../../service.json";
@@ -6,8 +6,6 @@ import student from "../../image/section3.jpg";
 import Layout from "../Layout/Layout";
 
 
-//set context api
-export const CourseContext = createContext()
 
 const Home = () => {
   const [course, setCourse] = useState([])
@@ -21,8 +19,7 @@ const Home = () => {
   },[])
   return (
     
-    <CourseContext.Provider value={course}>
-        <Layout>
+      <Layout>
       <div className="home">
       <div className="section1">
         <h1>Learn With</h1>
@@ -143,7 +140,6 @@ const Home = () => {
       </div>
     </div>
     </Layout>
-    </CourseContext.Provider>
    
   );
 };
