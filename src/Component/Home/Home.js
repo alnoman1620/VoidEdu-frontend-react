@@ -1,12 +1,29 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import React, { createContext, useEffect, useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 import "./Home.css";
 import services from "../../service.json";
 import student from "../../image/section3.jpg";
+import Layout from "../Layout/Layout";
+
+
+//set context api
+export const CourseContext = createContext()
 
 const Home = () => {
+  const [course, setCourse] = useState([])
+
+
+
+  useEffect(()=>{
+      fetch('../../course.json')
+      .then(res => res.json())
+      .then(data => setCourse(data))
+  },[])
   return (
-    <div className="home">
+    
+    <CourseContext.Provider value={course}>
+        <Layout>
+      <div className="home">
       <div className="section1">
         <h1>Learn With</h1>
         <h1>Modern Texhnology</h1>
@@ -30,8 +47,8 @@ const Home = () => {
         <div className="home-card two">
           <h1>Our Teachers</h1>
           <div className="p-div">
-            {services.courses.map((course) => {
-              return <p>{course.teacher}</p>;
+            {services.courses.map((course, key) => {
+              return <p key={key}>{course.teacher}</p>;
             })}
           </div>
           <Link>
@@ -80,7 +97,7 @@ const Home = () => {
             nunc purus. Ut egestas et nulla at pretium. Pellentesque sed varius
             lectus.
           </p>
-          <button className="sec3-btn">MEET OUR TEACHERS</button>
+          <NavLink to="/teacher"><button className="sec3-btn">MEET OUR TEACHERS</button></NavLink>
         </div>
       </div>
       <div className="extra-section">
@@ -113,18 +130,21 @@ const Home = () => {
           <p>Some Special Teachers From The Industry!</p>
         </div>
         <div className="teacher-card">
-          {services.courses.map((course) => {
+          {course.map((cou) => {
             return (
               <div>
-                <img className="teacher-img" src={course.image} alt=""></img>
-                <h4>{course.teacher}</h4>
-                <small>{course.university}</small>
+                <img className="teacher-img" src={cou.image} alt=""></img>
+                <h4>{cou.teacher}</h4>
+                <small>{cou.university}</small>
               </div>
             );
           })}
         </div>
       </div>
     </div>
+    </Layout>
+    </CourseContext.Provider>
+   
   );
 };
 

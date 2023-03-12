@@ -49,7 +49,7 @@ const Footer = () => {
         <div>
           <small>2023 © Abdullah-Al-Noman All Rights Reserved.</small>
         </div>
-        <div>
+        <div className="footer-link">
           <NavLink
             className="footer-text"
             to="/home"

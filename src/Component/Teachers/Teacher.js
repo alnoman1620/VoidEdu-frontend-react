@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Teacher.css";
 import services from "../../service.json";
 import {
@@ -9,10 +9,19 @@ import {
   CardMedia,
   Typography,
 } from "@mui/material";
+import Layout from "../Layout/Layout";
+import { CourseContext } from "../Home/Home";
+
+
 
 const Teacher = () => {
+ const muData = useContext(CourseContext)
+ 
+ console.log(muData)
+  
   return (
-    <div className="teacher">
+    <Layout>
+        <div className="teacher">
       <div className="intro">
         <h1>Our Teachers</h1>
       </div>
@@ -43,6 +52,7 @@ const Teacher = () => {
         })}
       </div>
     </div>
+    </Layout>
   );
 };
 

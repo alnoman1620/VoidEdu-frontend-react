@@ -1,9 +1,11 @@
 import React from "react";
+import Layout from "../Layout/Layout";
 import "./Enroll.css";
 
 const Enroll = () => {
   return (
-    <div className="enroll">
+   <Layout>
+     <div className="enroll">
       <div className="enroll-text">
         <h1>LEARN SKILLS WITH BEST TEACHERS</h1>
         <small>Web Design / Graphic Design / Programming Language / Video Editing </small>
@@ -43,6 +45,7 @@ const Enroll = () => {
         </div>
       </div>
     </div>
+   </Layout>
   );
 };
 

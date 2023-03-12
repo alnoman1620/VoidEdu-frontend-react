@@ -2,10 +2,12 @@ import React from "react";
 import "./Courses.css";
 import services from "../../service.json";
 import { NavLink } from "react-router-dom";
+import Layout from "../Layout/Layout";
 
 const Courses = () => {
   return (
-    <div className="courses">
+    <Layout>
+      <div className="courses">
       <div>
         {services.courses.map((course) => {
           return (
@@ -31,6 +33,7 @@ const Courses = () => {
         })}
       </div>
     </div>
+    </Layout>
   );
 };
 

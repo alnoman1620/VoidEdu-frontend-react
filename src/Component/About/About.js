@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Layout from "../Layout/Layout";
 import "./About.css";
 const About = () => {
   return (
-    <div className="about">
+    <Layout>
+      <div className="about">
       <h1>
         About our educational platform VOID<span>EDU</span>
       </h1>
@@ -83,6 +85,7 @@ const About = () => {
         
       </div>
     </div>
+    </Layout>
   );
 };
 
